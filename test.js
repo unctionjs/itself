@@ -1,12 +1,30 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import itself from "./"
 
 test(({same, end}) => {
   same(
-    tempLate(true),
-    false
+    itself("a"),
+    "a"
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    itself(true),
+    true
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    itself(null),
+    null
   )
 
   end()

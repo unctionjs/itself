@@ -1,3 +1,3 @@
-export default function tempLate (alpha: mixed): mixed {
-  return alpha
+export default function itself (value: ValueType): ValueType {
+  return value
 }
