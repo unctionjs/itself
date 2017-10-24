@@ -1,6 +1,6 @@
 {
   "name": "@unction/itself",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Always returns the value given when calling",
   "keywords": [
     "unction",
