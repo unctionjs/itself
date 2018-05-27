@@ -1,3 +1,3 @@
-export default function itself (value: ValueType): ValueType {
-  return value
+export default function itself(value) {
+  return value;
 }
