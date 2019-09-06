@@ -1,5 +1,5 @@
 
-import itself from "./index.ts";
+import itself from "./index";
 
 test(() => {
   expect(itself("a")).toEqual("a");
