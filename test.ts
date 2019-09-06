@@ -1,14 +1,14 @@
 
 import itself from "./index";
 
-test(() => {
+test("works", () => {
   expect(itself("a")).toEqual("a");
 });
 
-test(() => {
+test("works", () => {
   expect(itself(true)).toEqual(true);
 });
 
-test(() => {
+test("works", () => {
   expect(itself(null)).toEqual(null);
 });
